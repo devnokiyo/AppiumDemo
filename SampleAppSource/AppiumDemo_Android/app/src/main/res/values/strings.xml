@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppiumDemo</string>
+    <string name="id">ID</string>
+    <string name="password">パスワード</string>
+    <string name="login">ログイン</string>
+    <string name="welcome">ようこそ</string>
+    <string name="default_hint"/>
+</resources>
