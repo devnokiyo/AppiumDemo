@@ -37,7 +37,6 @@ android_caps = {
 
 RSpec.configure { |c|
   c.before(:each) {
-    p "ENV:#{ENV["PLATFORM"]}"
     caps = ios? ? ios_caps : android_caps
     @driver = Appium::Driver.new(caps)
     @driver.start_driver
